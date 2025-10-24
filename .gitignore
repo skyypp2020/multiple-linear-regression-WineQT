@@ -40,13 +40,20 @@ venv.bak/
 # VS Code
 .vscode/
 
-# Data files
-*.csv
+# Data files (allow specific datasets)
+# *.csv
 *.xlsx
 *.xls
 *.json
 *.pkl
 *.joblib
+
+# Ignore large data files but allow essential datasets
+!datasets/*.csv
+!processed_data/*.csv
+!results/data/*.csv
+!rfe_results.csv
+!baseline_modeling_results.csv
 
 # Model files
 *.pkl
@@ -55,17 +62,24 @@ venv.bak/
 *.hdf5
 *.model
 
-# Results and outputs
-results/
-results_no_outliers/
-processed_data/
-plots/
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.svg
-*.pdf
+# Results and outputs (allow specific files)
+# results/
+# results_no_outliers/
+# processed_data/
+# plots/
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.svg
+# *.pdf
+
+# Allow essential result files
+!results/plots/*.png
+!results_no_outliers/*.png
+!results_no_outliers/*.md
+!results/*.md
+!processed_data/*.md
 
 # Logs
 *.log
@@ -113,9 +127,12 @@ dmypy.json
 
 # Project specific
 prompt.log
-*.md
-!README.md
-!STREAMLIT_README.md
+# *.md
+# !README.md
+# !STREAMLIT_README.md
+
+# Allow all markdown files
+!*.md
 
 # Large datasets (uncomment if needed)
 # datasets/

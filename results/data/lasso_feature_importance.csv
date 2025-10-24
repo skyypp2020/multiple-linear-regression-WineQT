@@ -1,0 +1,16 @@
+feature,coefficient,abs_coefficient
+alcohol,0.2287050050424237,0.2287050050424237
+sulphates,0.1037353414643305,0.1037353414643305
+volatile acidity,-0.07466476269234458,0.07466476269234458
+acidity_ratio,0.036009163069072564,0.036009163069072564
+fixed acidity,0.0,0.0
+citric acid,0.0,0.0
+residual sugar,0.0,0.0
+chlorides,-0.0,0.0
+free sulfur dioxide,-0.0,0.0
+total sulfur dioxide,-0.0,0.0
+density,-0.0,0.0
+pH,-0.0,0.0
+total_acidity,0.0,0.0
+sulfur_ratio,0.0,0.0
+alcohol_density_ratio,0.0,0.0

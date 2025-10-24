@@ -55,12 +55,16 @@ venv.bak/
 !rfe_results.csv
 !baseline_modeling_results.csv
 
-# Model files
-*.pkl
-*.joblib
+# Model files (allow specific model files)
+# *.pkl
+# *.joblib
 *.h5
 *.hdf5
 *.model
+
+# Allow essential model files
+!results_no_outliers/models/*.pkl
+!results/models/*.pkl
 
 # Results and outputs (allow specific files)
 # results/

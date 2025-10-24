@@ -1,5 +1,9 @@
 # WineQT 多元線性迴歸分析專案
 
+## 🌐 線上展示
+
+**Streamlit 應用程式**: [https://multiple-linear-regression-wineqt-qtdhp6szk9iyvxxz2eyyyl.streamlit.app/](https://multiple-linear-regression-wineqt-qtdhp6szk9iyvxxz2eyyyl.streamlit.app/)
+
 ## 專案概述
 
 本專案基於 WineQT 資料集進行多元線性迴歸分析，採用 CRISP-DM (Cross-Industry Standard Process for Data Mining) 方法論來建立預測模型，目標是預測葡萄酒品質。
@@ -151,10 +155,15 @@ pip install -r requirements.txt
 
 ## 執行步驟
 
+### 本地執行
 1. **資料探索**: 執行 `01_data_exploration.ipynb`
 2. **資料預處理**: 執行 `02_data_preprocessing.ipynb`
 3. **模型建立**: 執行 `03_modeling.ipynb`
 4. **結果評估**: 執行 `04_evaluation.ipynb`
+
+### Streamlit 應用程式
+- **線上版本**: 直接訪問 [Streamlit 應用程式](https://multiple-linear-regression-wineqt-qtdhp6szk9iyvxxz2eyyyl.streamlit.app/)
+- **本地執行**: 執行 `streamlit run streamlit_app.py`
 
 ## 預期結果
 

@@ -10,6 +10,8 @@
 
 本專案基於 WineQT 資料集進行多元線性迴歸分析，採用 CRISP-DM (Cross-Industry Standard Process for Data Mining) 方法論來建立預測模型，目標是預測葡萄酒品質。
 
+**資料來源**: [https://www.kaggle.com/datasets/yasserh/wine-quality-dataset/data](https://www.kaggle.com/datasets/yasserh/wine-quality-dataset/data)
+
 ## 資料集資訊
 
 - **資料集名稱**: WineQT.csv

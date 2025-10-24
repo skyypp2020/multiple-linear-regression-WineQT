@@ -130,13 +130,16 @@ coverage.xml
 dmypy.json
 
 # Project specific
-prompt.log
+# prompt.log
 # *.md
 # !README.md
 # !STREAMLIT_README.md
 
 # Allow all markdown files
 !*.md
+
+# Allow prompt.log for AI conversation record
+!prompt.log
 
 # Large datasets (uncomment if needed)
 # datasets/

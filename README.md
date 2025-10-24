@@ -4,6 +4,8 @@
 
 **Streamlit 應用程式**: [https://multiple-linear-regression-wineqt-qtdhp6szk9iyvxxz2eyyyl.streamlit.app/](https://multiple-linear-regression-wineqt-qtdhp6szk9iyvxxz2eyyyl.streamlit.app/)
 
+與AI Agent對談紀錄是prompt.log
+
 ## 專案概述
 
 本專案基於 WineQT 資料集進行多元線性迴歸分析，採用 CRISP-DM (Cross-Industry Standard Process for Data Mining) 方法論來建立預測模型，目標是預測葡萄酒品質。
